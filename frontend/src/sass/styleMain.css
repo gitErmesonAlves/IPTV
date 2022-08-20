@@ -18,9 +18,19 @@ header {
   border-color: #6610f2 !important;
 }
 
+.btn-card {
+  background-color: #6610f2 !important;
+}
+
 .text-card-color {
   background-color: #6610f2 !important;
   color: #ffffff !important;
+}
+
+.btn-card-outiline {
+  background-color: transparent !important;
+  color: #6610f2 !important;
+  border-color: #6610f2 !important;
 }
 
 .btn-close:focus,
@@ -37,4 +47,22 @@ header {
   border-color: transparent !important;
   outline: none !important;
   box-shadow: none !important;
+}
+
+.btn-card-outiline:hover,
+.btn-card-outiline:focus {
+  background-color: #6610f2 !important;
+  color: #ffffff !important;
+}
+
+.list-group-item:active,
+.list-group-item:focus,
+.list-group-item:default {
+  border-color: #6610f2 !important;
+  background-color: #6610f2 !important;
+}
+
+.list-group-item:hover {
+  background-color: #6610f2 !important;
+  color: #ffffff !important;
 }/*# sourceMappingURL=styleMain.css.map */
