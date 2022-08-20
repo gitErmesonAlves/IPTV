@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Ws IPTV</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Ermeson ALves - FrontEnd Developer">
+
+    <!-- Bootstrap Imports -->
+    <link rel="stylesheet" href="./frontend/src/sass/styleMain.css">
+
+    <!-- Bootstrap Imports -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+
+<body>
+
+    <div class="">
+        <header class="w-100 d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mr-2 mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Simple header Logo</span>
+            </a>
+
+            <button class="btn btn-list-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <img src="./frontend/public/svg/list-nested.svg" alt="list-menu">
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto text-center mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Duvidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Atedimento Online</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <article class="">
+        <div class="px-4 pt-5 my-5 text-center text-dark border-bottom">
+            <h1 class="display-4 fw-bold">O que é IPTV?</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">O IPTV ou TVIP é um método de transmissão de sinais televisivos através de redes
+                    IP. Diferentemente dos sistemas tradicionais televisivos, o IPTV oferece a capacidade de transmitir
+                    a mídia de origem continuamente. Embora o IPTV use o protocolo da Internet, não está limitada à
+                    televisão transmitida pela internet.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+                       <a href="#sobre" class="nav-link">
+                        Tudo sobre o IPTV
+                       </a></button>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+                <div class="container px-5">
+                    <img src="https://getbootstrap.com/docs/5.2/examples/heroes/bootstrap-docs.png"
+                        class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Valores</h1>
+        <p class="fs-5 text-muted">Veja nossa tabela de preços e formas de pagamento disponiveis para você curtir com
+            sua familia e amigos</p>
+    </div>
+
+    <main class="container">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-card">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-card">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-card">
+                    <div class="card-header py-3 text-card-color border-primary">
+                        <h4 class="my-0 fw-normal">Enterprise</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="display-6 text-center mb-4" id="sobre">Tudo Sobre o IPTV</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">O QUE É?</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="list-profile">COMO FUNCIONA O PAGAMENTO</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="list-messages">É NECECSSÁRIO UMA TV BOX?</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab" aria-controls="list-settings">POSSO ASSINAR MAIS DE UMA
+                            TELA?</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                            É um novo método de transmisão de sinais televisivos. Assim
+                            como o VOIP`( voz por IP), usa o protocolo IP Internt Protocol como meio de transporte de
+                            conteúdo.</div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">Possuímos planos mensais, onde você pode renovar
+                            livremente. Assim como também possuímos planos mais longos como os anuais com grandes
+                            descontos, o poder de escolha é seu.
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">O uso de uma box é necessariose sua TV não for SmartTV
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">Você pode configurar seu login em diversos
+                            dispositivos, porém não poderá ver simultâneamente em duas telas sem adquirir o ponto extra.
+                            Adquira o ponto extra para ver em mais de uma tela ao mesmo tempo. Se ainda restar alguma
+                            dúvida entre em contato conosco, ficaremos feliz em esclarecer toda e qualquer dúvida.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2022 Desenvolvido por, Ermeson Alves</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-muted" href="#">
+                        <img src="./frontend/public/svg/instagram.svg" alt="icon-instagram">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted" href="#">
+                        <img src="./frontend/public/svg/meta.svg" alt="icon-meta">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted" href="#">
+                        <img src="./frontend/public/svg/whatsapp.svg" alt="icon-whatsapp">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Bootstrap Imports -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
